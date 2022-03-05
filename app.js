@@ -43,9 +43,9 @@ function Time(){
   let pm=document.getElementById("pm");
 
   const d = new Date();
-  hours.innerText=cift(Math.round(d.getHours()));
-  minutes.innerText=cift(Math.round(d.getMinutes()));
-  seconds.innerText=cift(Math.round(d.getUTCSeconds()));
+  hours.innerText=cift((d.getHours()));
+  minutes.innerText=cift((d.getMinutes()));
+  seconds.innerText=cift((d.getUTCSeconds()));
 
   if(d.getHours()<12){
     pm.innerText="AM"

@@ -45,7 +45,7 @@ function Time(){
   const d = new Date();
   hours.innerText=cift((d.getHours()));
   minutes.innerText=cift((d.getMinutes()));
-  seconds.innerText=cift((d.getUTCSeconds()));
+  seconds.innerText=cift((d.getSeconds()));
 
   if(d.getHours()<12){
     pm.innerText="AM"

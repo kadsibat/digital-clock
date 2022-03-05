@@ -31,11 +31,7 @@ function Time(){
 
 
   
-  function cift(i) {
-    if (i < 10) {i = "0" + i}
-    return i;
-  }
-
+  let cift=no =>no<10 ? "0" + no : no; 
   
   let hours= document.getElementById("hours");
   let minutes  =document.getElementById("minutes");
